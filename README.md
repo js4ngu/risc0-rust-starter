@@ -25,7 +25,7 @@ cargo run
 This is an empty template, and so there is no expected output (until you modify the code).
 
 ***
-먼저 [rustup](https://rustup.rs)이(가) 설치되어 있는지 확인합니다. 이 프로젝트는 [https://doc.rust-lang.org/book/appendix-07-nightly-rust.html) 버전의 [Rust](https://doc.rust-lang.org/book/ch01-01-installation.html))를 사용합니다. ['rust-toolchain'](rust-toolchain) 파일은 화물에서 자동으로 올바른 버전을 설치하는 데 사용됩니다.
+먼저 [rustup](https://rustup.rs)이(가) 설치되어 있는지 확인합니다. 이 프로젝트는 [nightly](https://doc.rust-lang.org/book/appendix-07-nightly-rust.html) 버전의 [Rust](https://doc.rust-lang.org/book/ch01-01-installation.html))를 사용합니다. ['rust-toolchain'](rust-toolchain) 파일은 화물에서 자동으로 올바른 버전을 설치하는 데 사용됩니다.
 
 zkVM 내에서 모든 메서드를 빌드하고 메서드를 실행하려면 다음 명령을 실행합니다:
 
@@ -47,7 +47,8 @@ Search this template for the string `TODO`, and make the necessary changes to im
 이 템플릿에서 문자열 'TODO'를 검색하고 'TODO' 주석에 설명된 필수 기능을 구현하기 위해 필요한 변경을 수행하십시오. 이러한 변경 사항 중 일부는 복잡하므로 RISC Zero zkVM용 코드를 직접 작성하는 방법을 배울 수 있는 여러 가지 교육 리소스가 있습니다:
  * [RISC Zero 웹사이트](https://www.risczero.com)의 [Getting Started](시작하기) 섹션은 시작하기에 좋은 곳입니다. 저희 웹사이트에도 추가 설명자와 개요가 있습니다.
  * 예제 프로젝트는 [risc0/risc0-rust-rust-remission 저장소](https://www.github.com/risc0/risc0-rust-examples)에서 사용할 수 있습니다.
- * Rustcrate에 대한 참조 문서는 [RISC Zero zkVM crate](https://docs.rs/risc0-build), the RISC Zero zkVM guest crate](https://docs.rs/risc0-zkvm-guest), the RISC Zero 빌드 crate)(https://github.com/risc0/risc0/blob/main/ 및 기타)를 포함하여 [docs.rs]에서 확인할 수 있습니다(전체 목록은 [https://docs.rs/risc0-zkvm),]에서 확인할 수 있습니다README.md]).
+ * Rustcrate에 대한 참조 문서는 [RISC Zero zkVM guest crate](https://docs.rs/risc0-zkvm-guest), [RISC Zero build crate](https://docs.rs/risc0-build), and others (the full list is available at [https://github.com/risc0/risc0/blob/main/README.md]).
+ * Our [main repository](https://www.github.com/risc0/risc0).
  * [주 저장소](https://www.github.com/risc0/risc0).
 
 
@@ -64,7 +65,7 @@ We welcome contributions to documentation and code via PRs and GitHub Issues on 
 ## Video Tutorial
 For a walk-through of how to build with this template, check out this [excerpt from our workshop at ZK HACK III](https://www.youtube.com/watch?v=Yg_BGqj_6lg&list=PLcPzhUaCxlCgig7ofeARMPwQ8vbuD6hC5&index=5).
 ***
-이 템플릿을 사용하여 구축하는 방법에 대한 자세한 내용은 다음 [ZK HACK III 워크숍의 예시](https://www.youtube.com/watch?v를 참조하십시오=Yg_BGqj_6lg&list=PLCPzhUaCxlCgig7ofeARMPwQ8vbuD6hC5&index=5).
+이 템플릿을 사용하여 구축하는 방법에 대한 자세한 내용은 다음 [excerpt from our workshop at ZK HACK III](https://www.youtube.com/watch?v=Yg_BGqj_6lg&list=PLcPzhUaCxlCgig7ofeARMPwQ8vbuD6hC5&index=5).
 
 ## Questions, Feedback, and Collaborations
 We'd love to hear from you on [Discord](https://discord.gg/risczero) or [Twitter](https://twitter.com/risczero).
