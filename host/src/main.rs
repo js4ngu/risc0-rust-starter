@@ -4,6 +4,7 @@ use risc0_zkvm::Prover;
 // use risc0_zkvm::serde::{from_slice, to_vec};
 
 fn main() {
+    println!("Hello World!");
     // Make the prover.
     let method_code = std::fs::read(METHOD_NAME_PATH)
         .expect("Method code should be present at the specified path; did you use the correct *_PATH constant?");
