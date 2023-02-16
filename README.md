@@ -71,3 +71,8 @@ For a walk-through of how to build with this template, check out this [excerpt f
 We'd love to hear from you on [Discord](https://discord.gg/risczero) or [Twitter](https://twitter.com/risczero).
 ***
 [Discord](https://discord.gg/risczero) 또는 [Twitter](https://twitter.com/risczero))에서 귀하의 의견을 듣고 싶습니다.
+
+
+## 비고
+* 'cargo run' 시 'error: failed to run custom build command for `openssl-sys v0.9.80`' 대처법
+    *  $ sudo apt-get install pkg-config libssl-dev
